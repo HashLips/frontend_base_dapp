@@ -96,11 +96,17 @@ function App() {
             {feedback}
           </s.TextDescription>
           <s.SpacerMedium />
+          <a href="https://testnets.opensea.io/collection/oracle-pon8otzxv2" target="_blank">Visit the 'Oracle Clone' Collection at OpenSea TestNet </a>
+          <s.SpacerMedium />
+          
+          <a href={"https://testnets.opensea.io/" + blockchain.account} target="_blank">Visit your Collection at OpenSea TestNet </a>
+          
         </s.Container>
 
         //  Get rinkeby ETH here: https://faucets.chain.link/rinkeby
         // Check your collection on Opensea testnet: https://testnets.opensea.io/0x06afacd25eff7940e116513e833c58000c765bd5
         //  Replace with your wallet address hash
+        //  https://testnets.opensea.io/collection/oracle-pon8otzxv2
       )}
     </s.Screen>
   );
